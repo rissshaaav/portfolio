@@ -1,0 +1,28 @@
+.Skills{
+    /* border: solid; */
+    height: 335px;
+}
+.Skills table{
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+}
+.Skills caption{
+    text-decoration: underline;
+}
+.Skills td{
+    border: solid;
+    width: 500px;
+    height: 50px;
+    padding: 0 5px;
+    background-color: var(--background);
+    font-size: larger;
+}
+.Skills td .TableItem{
+    display: inline-block;
+    background-color: var(--dark-yellow);
+    padding: 2px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

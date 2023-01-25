@@ -1,0 +1,52 @@
+.Service{
+    /* border: solid; */
+    height: fit-content;
+    /* width: 900px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Service h1{
+    text-decoration: underline;
+}
+.Service .CardContainer{
+    /* border: dashed; */
+    height: 600px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Service .Card{
+    border: solid;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--background);
+}
+.Service .Card:hover{
+    background-color: #414a4c;
+    color: var(--background);
+}
+.Service #Title{
+    /* border: solid; */
+    color: black !important; 
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    background-color: var(--dark-yellow);
+}
+.Service #Text{
+    text-align: justify;
+    font-size: larger;
+}

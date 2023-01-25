@@ -1,0 +1,30 @@
+.EducationAndExperience .TableItem{
+    display: block;
+}
+.EducationAndExperience table{
+    /* border: solid; */
+    width: fit-content;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+}
+.EducationAndExperience table caption{
+    text-decoration: underline;
+}
+.EducationAndExperience th{
+    /* border: dashed; */
+    background-color: var(--dark-yellow);
+    width: 400px;
+    height: 50px;
+    font-size: x-large;
+}
+.EducationAndExperience td{
+    /* border: dotted; */
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    background-color: var(--background);
+}
+.EducationAndExperience td span{
+    font-size: larger;
+}

@@ -1,0 +1,38 @@
+.Contact{
+    /* border: solid; */
+    height: calc(100vh - 2*60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Contact h1{
+    text-decoration: underline;
+}
+.Contact .NameAndEmail{
+    /* border: dotted; */
+    width: 800px;
+    height: 70px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Contact .NameAndEmail input{
+    height: 40px;
+    width: 350px;
+    background-color: var(--background);
+    border: solid;
+    padding: 20px;
+    font-size: large;
+}
+.Contact .Message textarea{
+    border: solid;
+    width: 800px;
+    height: 200px;
+    background-color: var(--background);
+    padding: 20px;
+    font-family: inherit;
+    font-size: large;
+    text-align: left;
+}

@@ -1,0 +1,22 @@
+.Footer{
+    /* border: solid; */
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: var(--dark-yellow);
+
+}
+.Footer ul li{
+    list-style:none;
+    display: inline-block;
+    margin: 0 5px;
+    font-size: x-large;
+    padding: 6px 15px;
+    text-align: center;
+    color: black;
+}
+.Footer .Detail{
+    font-size: larger;
+}
